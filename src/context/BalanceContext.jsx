@@ -2,7 +2,7 @@
 import { children, createContext, useContext, useState } from "react";
 
 const MyContext=createContext();
-export default function BalnceProvider({children}){
+export default function BalanceProvider({children}){
 const [balance,setBalance]=useState(5);
 
 

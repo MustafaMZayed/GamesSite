@@ -9,7 +9,7 @@ import './assets/css/owl.css'; // تأكد أن المسار صحيح
 import './assets/css/animate.css'; // تأكد أن المسار صحيح
 import 'swiper/swiper-bundle.css';
 import {  LanguageProvider } from './context/LanguageContext';
-import BalnceProvider from './context/balanceContext';
+import BalanceProvider from './context/balanceContext';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Account from './Pages/Account';
@@ -19,7 +19,7 @@ import GameContent from './Pages/GameContent';
 const App = () => {
   return (
     <BrowserRouter>
-      <BalnceProvider>
+      <BalanceProvider>
         <LanguageProvider>
           <GameProvider>
             <Routes>
@@ -33,7 +33,7 @@ const App = () => {
             </Routes>
           </GameProvider>
         </LanguageProvider>
-      </BalnceProvider>
+      </BalanceProvider>
     </BrowserRouter>
   );
 };
