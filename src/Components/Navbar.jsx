@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { UseBalance } from "../context/balanceContext";
+import { UseBalance } from "../context/BalanceContext";
 import { LanguageContext } from "../context/LanguageContext";
 import ArabicFlag from "./ArabicFlag";
 import EnglishFlag from "./EnglishFlag";

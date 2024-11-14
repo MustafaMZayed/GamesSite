@@ -8,7 +8,7 @@ import 'swiper/swiper-bundle.css';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel';
 import $ from 'jquery';
-import FeaturedGame from './Featuredgame';
+import FeaturedGame from './FeaturedGame';
 import { LanguageContext } from "../context/LanguageContext";
 import {  UseGames } from "../context/GameContext";
 import { Link } from 'react-router-dom';
