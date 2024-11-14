@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../assets/css/sidebar.css"; // Import CSS for styles
-import { UseBalance } from "../context/balanceContext";
+import { UseBalance } from "../context/BalanceContext";
 
 
 export default function Sidebar() {
