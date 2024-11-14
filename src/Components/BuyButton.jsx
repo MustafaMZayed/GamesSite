@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { UseGames } from "../context/GameContext";
 import { useEffect, useState } from "react";
 import { slugify } from "../assets/utility/utils";
-import { UseBalance } from "../context/balanceContext";
+import { UseBalance } from "../context/BalanceContext";
 function BuyButton() {
     const { gameTitle } = useParams(); // Get the game title from the URL
     const { games } = UseGames(); // Assume games is an array of game objects
