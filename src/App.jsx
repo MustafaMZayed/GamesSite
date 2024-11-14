@@ -9,7 +9,7 @@ import './assets/css/owl.css'; // تأكد أن المسار صحيح
 import './assets/css/animate.css'; // تأكد أن المسار صحيح
 import 'swiper/swiper-bundle.css';
 import {  LanguageProvider } from './context/LanguageContext';
-import BalanceProvider from './context/balanceContext';
+import BalanceProvider from './context/BalanceContext';
 import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Account from './Pages/Account';
