@@ -1,0 +1,73 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body and html to full height and a base font size */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif; /* Change to your preferred font */
+    line-height: 1.6;
+}
+
+/* Responsive container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Padding for small screens */
+}
+
+/* Header styles */
+header {
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Main content area */
+.main {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    gap: 20px; /* Space between items */
+}
+
+/* Card styles */
+.card {
+    background: #f4f4f4; /* Light gray background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px;
+    padding: 20px;
+    flex: 1 1 calc(33.333% - 20px); /* 3 cards per row, with space for gap */
+    min-width: 280px; /* Minimum width for cards */
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .card {
+        flex: 1 1 100%; /* 1 card per row on small screens */
+    }
+
+    header {
+        font-size: 1.5em; /* Increase font size for readability */
+    }
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

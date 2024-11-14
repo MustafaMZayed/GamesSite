@@ -1,0 +1,111 @@
+/* Sidebar styles */
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Hidden off-screen on the right initially */
+    width: 250px;
+    height: 100%;
+    background-color: #212529;
+    color: #fff;
+    transition: right 0.3s ease; /* Smooth slide-in effect */
+    z-index: 1000;
+    padding-top: 60px;
+   
+  }
+  
+  .sidebar.open {
+    right: 0; /* Sidebar slides in from the right */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    text-align: center;
+  }
+  .sidebar ul li :hover{
+   color: hotpink;
+  }
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Menu button aligned to the right */
+  .menu-button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    color: hotpink;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    cursor: pointer;
+    z-index: 1100;
+  }
+  
+  /* Close button inside sidebar */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    left: 20px; /* Place the close button on the left inside the sidebar */
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Overlay when sidebar is open */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    
+  }
+
+  @media (min-width: 992px) {
+    .menu-button {
+      display: none;
+    }
+    .sidebar {display: none}
+    .overlay{display: none }
+  }
+.menusearch{
+    max-width: 150px;
+    align-items: center;
+    border-radius: 50px;
+}
+.balance {
+    position: fixed;
+    top: 3%; /* Align to the top of the container */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Perfect horizontal centering */
+    
+    background-color: black;
+    color: white;
+    border-radius: 61px;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.balance-container {
+    position: fixed;
+    top:0;
+    width: 100%; /* Full width of the page */
+    height: 60px; /* Adjust height to fit your design */
+    padding: 10px 15px;
+    margin-top: 10px;
+    
+}
+@media (min-width: 1px) {
+    .balance {
+    display: none;}
+    }

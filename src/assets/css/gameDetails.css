@@ -1,0 +1,39 @@
+/* gameDetails.css */
+
+.game-details {
+    background-color: #1e1e1e; /* Dark background to match your theme */
+    color: #fff; /* White text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .game-header {
+    margin-bottom: 20px;
+  }
+  
+  .game-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+  
+  .game-description {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .game-slider {
+    margin-top: 20px;
+  }
+  
+  .slider-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slider-image {
+    max-width: 100%;
+    border-radius: 8px; /* Rounded corners for images */
+  }
+  
