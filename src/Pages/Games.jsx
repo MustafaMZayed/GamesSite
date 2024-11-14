@@ -2,7 +2,7 @@ import Navbar from '../Components/Navbar';
 
 import FeaturedGameList from '../Components/FeaturedgameList';
 import { useState } from 'react';
-import { UseBalance } from '../context/balanceContext';
+import { UseBalance } from '../context/BalanceContext';
 import Sidebar from '../Components/Sidebar';
 import Search from "../Components/SearchBar";
 import Footer from '../Components/Footer';
