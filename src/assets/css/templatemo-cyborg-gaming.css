@@ -1726,6 +1726,15 @@ body {
 }
 
 @media (max-width: 992px) {
+
+  .header-area .main-nav .nav li:last-child a {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: #27292a;
+    padding: 8px 10px 8px 20px;
+    border-radius: 23px;
+  }
   .background-header {
   display: inline-block;
   }
@@ -1754,6 +1763,7 @@ body {
     margin: 45px 0px;
   }
 }
+
 
 .responsive-logo {
   max-width: 120px; /* Default size for large screens */
